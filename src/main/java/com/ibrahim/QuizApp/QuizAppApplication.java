@@ -36,7 +36,8 @@ public class QuizAppApplication implements CommandLineRunner {
 						"Long to Int",
 						"Short to Int",
 						"Int to Long",
-						"rookie")
+						"rookie",
+			        	"Java")
 				);
 		questionDao.saveAll(questions);
 
